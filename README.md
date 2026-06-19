@@ -8,7 +8,7 @@ This repository contains the official implementation of a **Transformer-based de
 - **Transformer Architecture** with multi-head attention variants
 - **Data Augmentation** (amplitude scaling + Gaussian noise) for improved generalization
 - **Mixed Precision Training** for faster convergence
-- **Support for Standard (3×26929) and BA (2×80787) modes** 
+- **Support for Standard (3×26929) and Bending (2×80787) modes** 
 - **Comprehensive Evaluation** with MAE, L2 error, and visualization tools
 
 
