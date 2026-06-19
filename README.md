@@ -12,4 +12,7 @@ This repository contains the official implementation of a **Transformer-based de
 - **Comprehensive Evaluation** with MAE, L2 error, and visualization tools
 
 
-
+# Datasets
+All the data used in this work are publicly available at
+https://zenodo.org/records/3554935. These datasets were originally introduced in Griese et al
+(2020), paper title : "In-Vitro MPI-Guided IVOCT Catheter Tracking in Real Time for Motion Artifact Compensation"
