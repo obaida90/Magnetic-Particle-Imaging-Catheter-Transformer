@@ -116,7 +116,7 @@ if __name__ == "__main__":
     
     # Data parameters
     parser.add_argument('--data_dir', type=str, 
-                       default='/home/obaida/REALTIME/TrainingSets/FullStdMode',
+                       default='/home/TrainingSets/FullStdMode', # Then change with BA and HBA mode data
                        help='Directory containing data')
     parser.add_argument('--mode', type=str, default='BA', choices=['BA', 'Standard'],
                        help='MPI mode: BA or Standard')
