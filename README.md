@@ -17,7 +17,8 @@ All the data used in this work are publicly available at
 https://zenodo.org/records/3554935. These datasets were originally introduced in Griese et al
 (2020), paper title : "In-Vitro MPI-Guided IVOCT Catheter Tracking in Real Time for Motion Artifact Compensation"
 
-Please cite this paper :  
+If you use this code, please cite:  
+
 @article{10.1088/1361-6560/ae794f,
 	author={M Khair, Abuobaida and Jiang, Wenjing and Yang, Xiaoli and Wildgruber, Moritz and Ma, Xiaopeng},
 	title={Harmonic-aware transformer for real-time catheter localization in interventional procedures of magnetic particle imaging},
