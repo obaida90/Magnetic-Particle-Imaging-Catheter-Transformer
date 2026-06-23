@@ -225,12 +225,13 @@ class HarmonicMPIPreprocessor:
 
 def main():
     """
-    Example usage of the Harmonic-Based MPI Signal Preprocessing algorithm.
+    Example usage of the Harmonic-Based MPI Signal Preprocessing algorithm. 
     """
+    #Please note this is not the actual measurements 
     # Parameters
     fs = 1000.0          # Sampling frequency [Hz]
     fx, fy, fz = 50.0, 60.0, 70.0  # Fundamental frequencies [Hz]
-    harmonic_range = (1, 5)  # [h1, h2] harmonic range
+    harmonic_range = (2, 8)  # [h1, h2] harmonic range
     bandwidth = 10.0     # Δf [Hz]
     
     # Generate synthetic dataset for demonstration
