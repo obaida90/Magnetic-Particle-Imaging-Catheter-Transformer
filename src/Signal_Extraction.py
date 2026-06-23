@@ -11,8 +11,6 @@ from numpy.fft import rfft
 measurement_path = "/Path to the mdf file"
 
 # Output directory
-# output_dir = "Std. ModeSignals"
-# output_dir = "HBA ModeSignals"
 output_dir = "/Std,BA, HBA MODE SIGNALS"
 os.makedirs(output_dir, exist_ok=True)
 
@@ -35,12 +33,6 @@ with h5py.File(measurement_path, 'r') as f:
         np.save(frame_path, frame)
 
     print(f"Saved {u_fft.shape[0]} frames to {output_dir}")
-
-
-
-
-
-
 
 
 --------------------------------------
